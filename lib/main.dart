@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:test_jiitek/screens/screen1/screen1.dart';
+import 'package:test_jiitek/screens/screen1/bottom_nav.dart';
 import 'screens/screen2/screen2.dart';
 import 'screens/screen3/screen3.dart';
 
@@ -42,7 +42,7 @@ class MyHomePage extends StatelessWidget {
                       decoration: BoxDecoration(borderRadius: BorderRadius.circular(10), color: const Color(0xFFFAAA14)),
                       child: TextButton(                   
                         onPressed: () {
-                          Get.to(Screen1());
+                          Get.to(BottomNav());
                         },
                         child: Text("Screen 1", style: GoogleFonts.poppins(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18))),
                     ),
